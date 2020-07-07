@@ -1,1 +1,7 @@
+---
+layout: post
+title: "Book Review: Undying Courage: The story of Bagha Jatin"
+date: 2020-07-07
+---
+
 From the past few months (even before the lockdown started), I am taken by a keen fascination with the history of West Bengal. I felt particularly interested in the early history of Bengal focussed on the era before and during the bristish occupancy.
