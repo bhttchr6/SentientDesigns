@@ -1,0 +1,1 @@
+Recently, or I should rather say, for a past few months (even before the lockdown started), I am taken by a keen fascination with the history of West Bengal. I felt particularly fascinated with the early history of Bengal during and before the british era.
