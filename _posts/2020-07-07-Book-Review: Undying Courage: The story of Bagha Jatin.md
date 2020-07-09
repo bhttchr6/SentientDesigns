@@ -11,5 +11,5 @@ From the past few months (even before the lockdown started), I am taken by a kee
 ## The book & reading experience
 I throughly enjoyed reading this book. Agreed that reading biographies requires certain inclination towards the subject matter but I still enjoyed the contents of the book. The written material is interspersed with pictures of Jatin which makes reading it more interesting  and helps in connecting with the stories and the incidents more deeply. This book, which I found in the UIUC main library, was published in 1992 and so the pages and the font style bore an old worldly charm.
 
-## The central charecter: Jatindranath Mukherjee
+## The central character: Jatindranath Mukherjee
 Born in 1879, Jatindranath Mukherjee was a freedom fighter with charismatic and magnetic personality.
