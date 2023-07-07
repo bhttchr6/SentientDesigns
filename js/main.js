@@ -21,14 +21,14 @@ let object;
 let controls;
 
 //Set which object to render
-let objToRender = 'cube';
+let objToRender = 'eye';
 
 //Instantiate a loader for the .gltf file
 const loader = new GLTFLoader();
 
 //Load the file
 loader.load(
-  `models/${objToRender}/cube.gltf`,
+  `models/${objToRender}/scene.gltf`,
   function (gltf) {
     //If the file is loaded, add it to the scene
     object = gltf.scene;
