@@ -1,0 +1,154 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "headset_rest_virus-Body"
+        },
+        {
+            "mesh" : 1,
+            "name" : "DualMesh"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "headset_rest_virus-Body",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        },
+        {
+            "name" : "headset_rest_virus-Body.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 42079,
+            "max" : [
+                80.23755645751953,
+                80.30389404296875,
+                80.1205825805664
+            ],
+            "min" : [
+                -80.37158203125,
+                -104.74143981933594,
+                -45.0776481628418
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 42079,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 42786,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 852,
+            "max" : [
+                73.96988677978516,
+                75.39015197753906,
+                73.28028106689453
+            ],
+            "min" : [
+                -73.85470581054688,
+                -90.80303192138672,
+                -39.06078338623047
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 852,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 1728,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 504948,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 504948,
+            "byteOffset" : 504948,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 85572,
+            "byteOffset" : 1009896,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10224,
+            "byteOffset" : 1095468,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10224,
+            "byteOffset" : 1105692,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3456,
+            "byteOffset" : 1115916,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1119372,
+            "uri" : "headrest.bin"
+        }
+    ]
+}
