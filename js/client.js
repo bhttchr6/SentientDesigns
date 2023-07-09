@@ -46,7 +46,7 @@ const cube = new THREE.Mesh( geometry, material );
 
 
 const loader = new STLLoader();
-loader.load( 'STL_Files/Dremel_Impeller.stl', function ( geometry ) {
+loader.load( 'STL_Files/Bunny.stl', function ( geometry ) {
 
         const material1 = new THREE.MeshPhongMaterial( { color: 0xff9c7c, specular: 0x494949, shininess: 200 } );
         const mesh = new THREE.Mesh( geometry, meshMaterial );
