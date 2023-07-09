@@ -46,14 +46,14 @@ const cube = new THREE.Mesh( geometry, material );
 
 
 const loader = new STLLoader();
-loader.load( 'STL_Files/Dremel_Impeller.stl', function ( geometry ) {
+loader.load( 'STL_Files/Turbine.stl', function ( geometry ) {
 
         const material1 = new THREE.MeshPhongMaterial( { color: 0xff9c7c, specular: 0x494949, shininess: 200 } );
         const mesh = new THREE.Mesh( geometry, meshMaterial );
         
 	mesh.position.set( 0, 0, 0.0 );
 	mesh.rotation.set( 0, - Math.PI , 0 );
-	mesh.scale.set( 0.05, 0.05, 0.05 );
+	mesh.scale.set( 0.5, 0.5, 0.5 );
 
 	mesh.castShadow = true;
 	mesh.receiveShadow = true;
