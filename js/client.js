@@ -53,7 +53,7 @@ loader.load( 'STL_Files/voxel_dremel.stl', function ( geometry ) {
         
 	mesh.position.set( 0, 0, 0.0 );
 	mesh.rotation.set( 0, - Math.PI , 0 );
-	mesh.scale.set( 0.5, 0.5, 0.5 );
+	mesh.scale.set( 0.05, 0.05, 0.05 );
 
 	mesh.castShadow = true;
 	mesh.receiveShadow = true;
