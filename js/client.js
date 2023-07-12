@@ -50,7 +50,7 @@ spotLight.intensity = 3;
 spotLight.angle = Math.PI /16;
 spotLight.penumbra = 0.5;
 spotLight.castShadow = true;
-spotLight.position.set( -10, 10, 1 );
+spotLight.position.set( -10, 10, 20 );
 scene.add( spotLight );
 
 // add axis to the view
@@ -95,12 +95,13 @@ const envTexture = new THREE.CubeTextureLoader().load([
 
 
 const loader = new STLLoader();
+//load the voxelized file
 loader.load( 'STL_Files/voxel_dremel.stl', function ( geometry ) {
 
         const material1 = new THREE.MeshPhongMaterial( { color: 0xff9c7c, specular: 0x494949, shininess: 200 } );
         const mesh = new THREE.Mesh( geometry, meshMaterial );
         
-	mesh.position.set( 0, 0, 0.0 );
+	mesh.position.set( 0, 0, -3.0 );
 	mesh.rotation.set( Math.PI, -Math.PI , 0 );
 	mesh.scale.set( 0.05, 0.05, 0.05 );
 
@@ -112,6 +113,22 @@ loader.load( 'STL_Files/voxel_dremel.stl', function ( geometry ) {
 	} );
 
 
+//load the original file        
+loader.load( 'STL_Files/Dremel_Impeller.STL', function ( geometry ) {
+
+        const material1 = new THREE.MeshPhongMaterial( { color: 0xff9c7c, specular: 0x494949, shininess: 200 } );
+        const mesh1 = new THREE.Mesh( geometry, meshMaterial );
+                
+        mesh1.position.set( 0, 0, 3.0 );
+        mesh1.rotation.set( Math.PI/2, -Math.PI , 0 );
+        mesh1.scale.set( 0.05, 0.05, 0.05 );
+        
+        mesh1.castShadow = true;
+        mesh1.receiveShadow = true;
+        
+        scene.add( mesh1 );
+        
+                } );
 camera.position.z = 5;
 
 
@@ -126,5 +143,4 @@ function animate() {
 }
 
 animate();
-
 
