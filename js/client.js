@@ -95,7 +95,7 @@ const envTexture = new THREE.CubeTextureLoader().load([
 
 
 const loader = new STLLoader();
-loader.load( 'STL_Files/Voxel_Dremel.stl', function ( geometry ) {
+loader.load( 'STL_Files/voxel_dremel.stl', function ( geometry ) {
 
         const material1 = new THREE.MeshPhongMaterial( { color: 0xff9c7c, specular: 0x494949, shininess: 200 } );
         const mesh = new THREE.Mesh( geometry, meshMaterial );
