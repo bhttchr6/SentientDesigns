@@ -97,7 +97,7 @@ const envTexture = new THREE.CubeTextureLoader().load([
 const loader = new STLLoader();
 
 //load the original file        
-loader.load( 'STL_Files/wireframe_knot.stl', function ( geometry ) {
+loader.load( 'https://drive.google.com/file/d/1JPXoFyeJbALLENb6J6Z71w6mptt44Uag/view?usp=sharing', function ( geometry ) {
 
         const material1 = new THREE.MeshPhongMaterial( { color: 0xff9c7c, specular: 0x494949, shininess: 200 } );
         const mesh1 = new THREE.Mesh( geometry, meshMaterial );
