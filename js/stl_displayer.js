@@ -30,7 +30,7 @@ const gridHelper = new THREE.GridHelper( 10, 20 );
 //scene.add( gridHelper );
 
 //ambinet light
-scene.add( new THREE.AmbientLight( 0x666666, 2) );//(color, intensity)
+scene.add( new THREE.AmbientLight( 0x666666, 500) );//(color, intensity)
 
 // point light
 
@@ -71,7 +71,7 @@ const envTexture = new THREE.CubeTextureLoader().load([
     const meshMaterial = new THREE.MeshPhysicalMaterial({
         color: 0xffffff,//0xb2ffc8,
         envMap: envTexture,
-        metalness: 0.8,
+        metalness: 0.0,
         roughness: 0.1,
         opacity: 1.0,
         side: THREE.DoubleSide,
