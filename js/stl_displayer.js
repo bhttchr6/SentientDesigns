@@ -14,7 +14,7 @@ const camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.inner
 camera.position.set( 10, 4, 5 );
 camera.lookAt( 0, 0, 0 );
 //scene.background = new THREE.Color( 0xffffff );
-scene.background = new THREE.Color( 0xf0f0f0 );
+//scene.background = new THREE.Color( 0xf0f0f0 );
 
 const renderer = new THREE.WebGLRenderer( );
 renderer.setSize( window.innerWidth, window.innerHeight );
