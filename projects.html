@@ -1,57 +1,20 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-  <title>Projects</title>
-  <link rel="stylesheet" href="base.css">
-</head>
-<body>
-  <nav>
-    <a href="./index.html">Future of Design</a>
-    <!-- web browsers respond to index.html and / the same way -->
-    <a href="./aboutme.html">About Me</a>
-    <a href="./projects.html">My Projects</a>
-  </nav>
+  <head>
+    <meta charset="utf-8" />
+    <title>3D Viewer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1> Knot (.STL)</h1>
+    </header>
+    
+    <main>
+      <div id="container3D"></div>
+    </main>
 
-  
-    <div>
-      <h2>Designing structures with phase-changing and shape memory polymers</h2>
-  </div>
-  
-  <div>
-    <h2>Desiging shape adaptive structures soft and flexible materials</h2>
-  </div>
-  
-  <div>
-      <h2>Analysing dynamic behavior of soft materials and metals</h2>
-  </div>
-        
-        <div>
-          <h2> Analysing inelastic behvaior of materials</h2>
-        </div>
-        
-     <div>
-       <h2>Simulating High Cycle and Low Cycle fatigue damages</h2>
-        </div>
-        
-        <div>
-       <h2>Desiging resilient structures using smart materials </h2>
-        </div>
-         
-         <div>
-       <h2> Desiging structures made of soft materials using Neural Networks </h2>
-           </div>
-         
-             <div>
-             <h2> Voxelization of CAD geometries for structural design using Topology Optimization</h2>
-        <h3> Voxelization of the stanford bunny </h3>
-               <p> The stanford bunny point cloud (the point cloud information can be extracted from .STL file as well)</p>
-               <img src="./blog/bunnyPCDpng.png" alt="Stanford Bunny PCD" />
-               <p> The volxelized version of stanford bunny </p>
-               <img src="./blog/bunnyVOXELpng.png" alt="Stanford Bunny Voxelized" />
-             </div>
-     
- 
-      
-</body>
+    <script type="module" src="js/stl_displayer.js"></script>
+    
+  </body>
 </html>
